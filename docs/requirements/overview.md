@@ -30,7 +30,7 @@ Public holidays are published every year in official bulletins: national holiday
 
 | Term | Definition |
 |------|------------|
-| Locality | Municipality (concejo) of Asturias listed on the website. |
+| Locality | Municipality (concejo) of Asturias, or part of one whose local holidays differ from the rest of the municipality (for example the parish of Lugones in Siero), listed on the website. |
 | National holiday | Public holiday that applies to all of Spain. |
 | Regional holiday | Public holiday that applies to the whole Principality of Asturias. |
 | Local holiday | Public holiday that applies only to one locality. |

@@ -1,0 +1,61 @@
+# Sources:
+# - BOE núm. 254, 13-X-2026 (BOE-A-2026-21254): national and regional holidays.
+# - BOPA núm. 110, 10-VI-2026 (Cód. 2026-04656): local holidays.
+national:
+  - date: 2027-01-01
+    name: Año Nuevo
+  - date: 2027-03-26
+    name: Viernes Santo
+  - date: 2027-05-01
+    name: Fiesta del Trabajo
+  - date: 2027-10-12
+    name: Fiesta Nacional de España
+  - date: 2027-11-01
+    name: Todos los Santos
+  - date: 2027-12-06
+    name: Día de la Constitución Española
+  - date: 2027-12-08
+    name: Inmaculada Concepción
+  - date: 2027-12-25
+    name: Natividad del Señor
+regional:
+  - date: 2027-01-06
+    name: Epifanía del Señor
+  - date: 2027-03-25
+    name: Jueves Santo
+  - date: 2027-08-16
+    name: Lunes siguiente a Asunción de la Virgen
+  - date: 2027-09-08
+    name: Día de Asturias
+local:
+  Oviedo:
+    - date: 2027-05-18
+      name: Martes de Campo
+    - date: 2027-09-21
+      name: San Mateo
+  Gijón:
+    - date: 2027-02-09
+      name: Carnaval/Antroxu
+    - date: 2027-06-29
+      name: San Pedro
+  Avilés:
+    - date: 2027-03-29
+      name: Lunes de Pascua
+    - date: 2027-08-28
+      name: San Agustín
+  Llanera:
+    - date: 2027-02-09
+      name: Festividad del Antroxu
+    - date: 2027-05-15
+      name: Festividad de San Isidro Labrador
+  Siero:
+    - date: 2027-03-30
+      name: Huevos Pintos
+    - date: 2027-07-19
+      name: El Carmín
+  # Parish of Siero; El Carmín is replaced by Santa Isabel.
+  Lugones:
+    - date: 2027-03-30
+      name: Huevos Pintos
+    - date: 2027-08-30
+      name: Santa Isabel
