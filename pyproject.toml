@@ -1,0 +1,25 @@
+[project]
+name = "holiday-calendar"
+version = "0.1.0"
+description = "Generates subscribable public holiday calendars for localities of Asturias."
+requires-python = ">=3.13"
+dependencies = [
+    "icalendar>=7.3.0",
+    "jinja2>=3.1.6",
+    "pyyaml>=6.0.3",
+]
+
+[project.scripts]
+holiday-calendar = "holiday_calendar.build:main"
+
+[build-system]
+requires = ["uv_build>=0.9,<1"]
+build-backend = "uv_build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
