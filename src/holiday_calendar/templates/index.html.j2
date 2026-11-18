@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calendarios de festivos de Asturias</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 0; color: #1f2328; background: #f6f8fa; }
+    main { max-width: 40rem; margin: 0 auto; padding: 2rem 1rem; }
+    h1 { font-size: 1.75rem; margin-top: 0; }
+    ul { list-style: none; padding: 0; }
+    li { display: flex; justify-content: space-between; align-items: center; gap: 1rem;
+         padding: 0.75rem 1rem; margin-bottom: 0.5rem; background: #fff; border: 1px solid #d0d7de;
+         border-radius: 0.5rem; }
+    a.button { padding: 0.5rem 1rem; border-radius: 0.375rem; background: #0b5cad; color: #fff;
+               text-decoration: none; font-weight: 600; white-space: nowrap; }
+    a.button:hover, a.button:focus { background: #08467f; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Calendarios de festivos de Asturias</h1>
+    <p>Suscríbete al calendario con todos los festivos nacionales, autonómicos y locales de tu concejo.</p>
+    {% if localities %}
+    <ul>
+      {% for locality in localities %}
+      <li>
+        <span>{{ locality.name }}</span>
+        <a class="button" href="{{ locality.url }}" aria-label="Suscribirse a los festivos de {{ locality.name }}">Suscribirse</a>
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p>Todavía no hay concejos disponibles.</p>
+    {% endif %}
+  </main>
+</body>
+</html>

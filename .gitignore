@@ -5,3 +5,9 @@
 
 # OS/editor noise
 .DS_Store
+
+# Python and build output
+.venv/
+__pycache__/
+.pytest_cache/
+_site/

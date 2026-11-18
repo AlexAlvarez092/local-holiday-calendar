@@ -1,4 +1,4 @@
-# Project name requirements
+# Local holiday calendar requirements
 
 Index of the requirements documentation.
 

@@ -1,0 +1,19 @@
+name: Checks
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10.3.3
+      - name: Run tests
+        run: uv run --locked pytest
+      - name: Validate holiday data
+        run: uv run --locked holiday-calendar data _site
