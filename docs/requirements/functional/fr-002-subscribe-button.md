@@ -1,7 +1,7 @@
 # FR-002: Subscribe button
 
 - **Priority:** Must
-- **Status:** Accepted
+- **Status:** Implemented
 
 Each locality in the list ([FR-001](fr-001-locality-list.md)) has a button that opens the subscription URL of that locality's calendar, so the visitor's calendar application offers to subscribe to it.
 

@@ -2,7 +2,7 @@
 
 - **Category:** Compatibility
 - **Priority:** Must
-- **Status:** Accepted
+- **Status:** Implemented
 
 Generated calendars follow the iCalendar standard (RFC 5545). The supported calendar applications are Apple Calendar (macOS and iOS) and Google Calendar.
 

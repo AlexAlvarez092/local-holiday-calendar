@@ -1,7 +1,7 @@
 # FR-003: Calendar content
 
 - **Priority:** Must
-- **Status:** Accepted
+- **Status:** Implemented
 
 The project generates one calendar per locality, named "Festivos de <locality>", containing all its applicable holidays (national, regional and local), each as an all-day event. When several applicable holidays fall on the same date, they form a single event whose name joins their names with " y ", in the order national, regional, local.
 
