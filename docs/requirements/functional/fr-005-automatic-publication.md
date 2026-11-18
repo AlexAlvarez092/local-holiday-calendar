@@ -1,7 +1,7 @@
 # FR-005: Automatic publication
 
 - **Priority:** Must
-- **Status:** Accepted
+- **Status:** Implemented
 
 When changes to the holiday data are pushed to the main branch, a workflow processes the data, generates the calendars ([FR-003](fr-003-calendar-content.md)), updates the locality list ([FR-001](fr-001-locality-list.md)) and publishes the result. The maintainer can also start the workflow manually.
 

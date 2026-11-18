@@ -2,7 +2,7 @@
 
 - **Category:** Usability
 - **Priority:** Must
-- **Status:** Accepted
+- **Status:** Implemented
 
 All visitor-facing content (website text and calendar event names) is in Spanish.
 

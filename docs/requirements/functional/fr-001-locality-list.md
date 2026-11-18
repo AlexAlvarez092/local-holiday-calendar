@@ -1,7 +1,7 @@
 # FR-001: Locality list
 
 - **Priority:** Must
-- **Status:** Accepted
+- **Status:** Implemented
 
 The website shows a list with every locality present in the holiday data ([CON-002](../constraints/con-002-manual-holiday-data.md)). The initial data contains Oviedo, Gijón, Avilés, Llanera, Siero and Lugones.
 
