@@ -1,6 +1,6 @@
-# Project name
+# Local holiday calendar
 
-One-line description of the project.
+Website to subscribe, with one click, to a calendar with all the public holidays of a locality of Asturias.
 
 | Location | Content |
 |----------|---------|
@@ -9,3 +9,4 @@ One-line description of the project.
 | [docs/requirements/non-functional/](docs/requirements/non-functional/) | Non-functional requirements (`NFR-xxx`) |
 | [docs/requirements/constraints/](docs/requirements/constraints/) | Constraints (`CON-xxx`) |
 | [docs/adr/](docs/adr/README.md) | Architecture decision records |
+| [data/](data/README.md) | Holiday data and how to update it |
