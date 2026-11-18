@@ -1,0 +1,61 @@
+# Sources:
+# - BOE núm. 259, 28-X-2025 (BOE-A-2025-21667): national and regional holidays.
+# - BOPA núm. 114, 16-VI-2025 (Cód. 2025-04744): local holidays.
+national:
+  - date: 2026-01-01
+    name: Año Nuevo
+  - date: 2026-04-03
+    name: Viernes Santo
+  - date: 2026-05-01
+    name: Fiesta del Trabajo
+  - date: 2026-08-15
+    name: Asunción de la Virgen
+  - date: 2026-10-12
+    name: Fiesta Nacional de España
+  - date: 2026-12-08
+    name: Inmaculada Concepción
+  - date: 2026-12-25
+    name: Natividad del Señor
+regional:
+  - date: 2026-01-06
+    name: Epifanía del Señor
+  - date: 2026-04-02
+    name: Jueves Santo
+  - date: 2026-09-08
+    name: Día de Asturias
+  - date: 2026-11-02
+    name: Día siguiente a Todos los Santos
+  - date: 2026-12-07
+    name: Lunes siguiente al Día de la Constitución Española
+local:
+  Oviedo:
+    - date: 2026-05-26
+      name: Martes de Campo
+    - date: 2026-09-21
+      name: San Mateo
+  Gijón:
+    - date: 2026-02-17
+      name: Carnaval/Antroxu
+    - date: 2026-06-29
+      name: San Pedro
+  Avilés:
+    - date: 2026-04-06
+      name: Lunes de Pascua
+    - date: 2026-08-28
+      name: San Agustín
+  Llanera:
+    - date: 2026-02-17
+      name: Festividad del Antroxu
+    - date: 2026-05-15
+      name: Festividad de San Isidro Labrador
+  Siero:
+    - date: 2026-04-07
+      name: Huevos Pintos
+    - date: 2026-07-20
+      name: El Carmín
+  # Parish of Siero; El Carmín is replaced by Santa Isabel.
+  Lugones:
+    - date: 2026-04-07
+      name: Huevos Pintos
+    - date: 2026-08-31
+      name: Santa Isabel
